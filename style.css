@@ -1,0 +1,121 @@
+img {
+  position: absolute;
+  max-width: 105%;
+  height: auto;
+  top: 300px;
+  margin-left: -58px;
+  }
+.content {
+  position: relative;
+  top: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px ;
+    font-size: 300%;
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    color:#e7dfc9;
+}
+.p1 {
+  text-align: center;
+  font-size: 120%;
+  margin-top: -30px;
+}
+.p2 {
+  color: #2e3949;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 150%;
+  line-height: 150%;
+}
+.column{
+  float: left;
+  margin-top: -40px;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  color: #e1d6b8;
+  text-align: left;
+  margin-left: 70px;
+  font-size: 160%;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  margin-top: 60px;
+}
+.l1 {
+  color: #2e3949;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 130%;
+  line-height: 180%;
+  margin-top: -20px
+}
+
+h3 {
+  color: #e1d6b8;
+  text-align: left;
+  font-size: 160%;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+.l2 {
+  color: #2e3949;
+  text-align: left;
+  font-size: 130%;
+  line-height: 180%;
+  margin-left: 250px;
+  margin-top: -20px
+}
+
+.column2{
+  float: left;
+}
+.row2:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+h4 {
+  color: #e1d6b8;
+  text-align: left;
+  font-size: 160%;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  margin-left: 320px;
+  margin-top: 10px;
+}
+.l3-1 {
+  color: #2e3949;
+  text-align: left;
+  font-size: 130%;
+  line-height: 180%;
+  margin-left: 270px;
+  margin-top: -30px;
+}
+.l3-2 {
+  color: #2e3949;
+  text-align: left;
+  font-size: 130%;
+  line-height: 180%;
+  margin-left: 40px;
+  margin-top: -30px;
+}
+
+body {
+    position: relative;
+    background: rgb(205,197,174);
+    background: linear-gradient(0deg, rgba(205,197,174,1) 0%, rgba(181,181,181,1) 36%, rgba(159,171,185,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer{
+    color: #2e3949;
+    font-size: 100%;
+    text-align: right;
+    bottom: -300px;
+    margin-right: 10px;
+}
